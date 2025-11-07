@@ -206,7 +206,14 @@ export default function App() {
             </div>
           </div>
         )}
+
+        <div className="mt-10 text-center w-full text-gray-500 text-sm">
+          Dibuat dengan 💛 oleh <a href="https://www.tiktok.com/@tam___31" className="underline hover:text-gray-700 transition">Nona</a>
+        </div>
+
       </div>
+      {/* copyright punya nona */}
+
     </div>
   );
 }
