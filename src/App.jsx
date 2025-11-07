@@ -67,6 +67,7 @@ export default function App() {
               <label className="block text-sm font-medium mb-1">Gram Min</label>
               <input
                 type="number"
+                pattern="[0-9]*"
                 step="0.01"
                 value={gramMin}
                 onChange={(e) => setGramMin(e.target.value)}
@@ -80,6 +81,7 @@ export default function App() {
               <input
                 type="number"
                 step="0.01"
+                pattern="[0-9]*"
                 value={gramMax}
                 onChange={(e) => setGramMax(e.target.value)}
                 placeholder="Contoh: 19"
@@ -94,6 +96,7 @@ export default function App() {
             <label className="block text-sm font-medium mb-1">Harga Awal</label>
             <input
               type="number"
+              pattern="[0-9]*"
               value={harga}
               onChange={(e) => setHarga(e.target.value)}
               placeholder="Masukkan harga awal"
@@ -108,6 +111,7 @@ export default function App() {
             </label>
             <input
               type="number"
+              pattern="[0-9]*"
               value={hargaCheckout}
               onChange={(e) => setHargaCheckout(e.target.value)}
               placeholder="Masukkan harga checkout"
@@ -124,6 +128,7 @@ export default function App() {
             </label>
             <input
               type="number"
+              pattern="[0-9]*"
               value={hargaBuyback}
               onChange={(e) => setHargaBuyback(e.target.value)}
               placeholder="Masukkan harga buyback"
@@ -140,6 +145,7 @@ export default function App() {
             <input
               type="number"
               step="0.01"
+              pattern="[0-9]*"
               value={gramasiDidapat}
               onChange={(e) => setGramasiDidapat(e.target.value)}
               placeholder="Masukkan gramasi didapat"
