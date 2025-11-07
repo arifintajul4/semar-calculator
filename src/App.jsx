@@ -44,7 +44,6 @@ export default function App() {
 
     setResult({
       modalUntung,
-      estimasiKeuntungan,
       kembalian,
       modal,
       hargaPerGram,
