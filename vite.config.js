@@ -18,7 +18,7 @@ export default defineConfig({
         'favicon.svg',
         'favicon.ico',
         'robots.txt',
-        'apple-touch-icon.png',
+        'pwa-logo.jpeg',
       ],
       manifest: {
         name: 'Semar Calculator',
@@ -30,17 +30,17 @@ export default defineConfig({
         start_url: '/',
         icons: [
           {
-            src: '/pwa-192x192.png',
+            src: '/pwa-logo.jpeg',
             sizes: '192x192',
             type: 'image/png',
           },
           {
-            src: '/pwa-512x512.png',
+            src: '/pwa-logo.jpeg',
             sizes: '512x512',
             type: 'image/png',
           },
           {
-            src: '/pwa-512x512.png',
+            src: '/pwa-logo.jpeg',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any maskable',
